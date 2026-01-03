@@ -3,46 +3,39 @@
 Look at the corrections you need to do, if not clear, contact jdh.admin@uni.lu
 
 ## Cell Counts   
-**all cells: 139**  
-code_empty: 1   
+**all cells: 138**  
+code_empty: 0   
 markdown: 122   
-code: 17   
+code: 16   
 
 ## Action Outputs
 
 ### Size
-**total cells: 139**
+**total cells: 138**
 ## Kernel Checks: 
 
 > [!CAUTION]
-> Error: **runtime.txt** is missing
+ > Error: Python versions don't match. The notebook is using **python-3.11.9**, when **python-3.11** is required.
 
+> [!TIP]
+ > Try changing **runtime.txt** to resolve the error above.
 
 ### Citations Not Found
 
 
 ### Check Output Sizes and Rules
-- Output cell 7 size: 16604.34 KB
-> First words of input cell: metadata = { "jdh": {
-- Output cell 32 size: 3289.84 KB
-> First words of input cell: metadata = { "jdh": {
-- Output cell 62 size: 1565.37 KB
-> First words of input cell: metadata = { "jdh": {
 - Table found in output of cell 118
 > First words of input cell: import pandas as pd from
 - Table found in output of cell 124
 > First words of input cell: import pandas as pd from
 
-Total output size: 23051.63 KB
-Total number of images: 5
+Total output size: 2682.43 KB
+Total number of images: 6
 Total number of tables: 2
 Total number of audios: 2
 
 > [!WARNING]
 > Notebook's output contains **text/plain** which is deprecated.
-
-> [!CAUTION]
-> Notebook's size exceeds 10mb
 
 | Mimetype | Presence |
 | --- | --- |
@@ -61,7 +54,7 @@ Total number of audios: 2
 | text/plain | 7 | Should be replaced |
 | text/plain | 22 | Should be replaced |
 | text/plain | 24 | Should be replaced |
-| text/plain | 25 | Should be replaced |
+| image/png | 25 | Correct tagging |
 | text/plain | 32 | Should be replaced |
 | text/plain | 37 | Should be replaced |
 | text/plain | 62 | Should be replaced |
@@ -505,14 +498,10 @@ No JavaScript code found in output cells.
 - Cell 22: Tags: ['figure-tryptich-*']
 - Cell 24: Tags: ['figure-klee-*']
 - Cell 25: Tags: ['figure-uncanny-*']
-- Cell 26: Tags: ['section-icons-*']
-  - Invalid tag: section-icons-*
 - Cell 28: Tags: ['table-1', 'table-triadic-*']
 - Cell 30: Tags: ['table-1', 'table-hypoicons-*']
 - Cell 32: Tags: ['figure-choson-*']
 - Cell 37: Tags: ['figure-beta-diagram-*']
-- Cell 40: Tags: ['section-analytical-*']
-  - Invalid tag: section-analytical-*
 - Cell 53: Tags: ['hermeneutics']
 - Cell 54: Tags: ['table-1', 'table-corpus-1-*']
 - Cell 55: Tags: ['hermeneutics']
@@ -521,8 +510,9 @@ No JavaScript code found in output cells.
 - Cell 59: Tags: ['hermeneutics']
 - Cell 60: Tags: ['table-1']
 - Cell 61: Tags: ['hermeneutics']
+- Cell 62: Tags: ['figure-page-*']
 - Cell 63: Tags: ['hermeneutics']
-- Cell 64: Tags: ['table-1']
+- Cell 64: Tags: ['table-1', 'table-validation-*']
 - Cell 66: Tags: ['hermeneutics']
 - Cell 68: Tags: ['hermeneutics']
 - Cell 70: Tags: ['figure-distribution-*']
@@ -554,15 +544,13 @@ No JavaScript code found in output cells.
 - Cell 111: Tags: ['table-1', 'table-indexical-evaluation-*']
 - Cell 115: Tags: ['figure-indexical-evaluation-*']
 - Cell 118: Tags: ['table-symbolic-evaluation-*']
+- Cell 120: Tags: ['figure-overall-perf-*']
 - Cell 123: Tags: ['hermeneutics']
+- Cell 124: Tags: ['table-error-analysis-*']
 - Cell 125: Tags: ['hermeneutics']
-- Cell 131: Tags: ['figure-beta-diagram-*']
-> [!WARNING]
-> The following tags are missing or invalid
+- Cell 131: Tags: ['figure-beta-diagram-2-*']
 
-#### Invalid Tags:
-- section-icons-*
-- section-analytical-*
+All mandatory tags are present in the cells.
 > Make sure to fill this template document [license_to_publish_JDH.dotx](https://github.com/C2DH/journal-of-digital-history-ipynb-preflight-action/blob/master/license_to_publish_JDH.dotx) and send it to jdh.admin@uni.lu
 
 
